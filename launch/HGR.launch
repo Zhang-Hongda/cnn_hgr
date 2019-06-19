@@ -1,0 +1,4 @@
+<launch>
+    <arg name="topic" default="/kinect2/qhd/image_color_rect"/>
+    <node name="HGR_node" pkg="cnn_hgr" type="cnn_hgr.py" args="input:=$(arg topic)"/>
+</launch>
