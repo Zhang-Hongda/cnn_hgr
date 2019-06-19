@@ -1,4 +1,7 @@
 # Byte-compiled / optimized / DLL files
+gestures/
+/cnn_model
+model/
 __pycache__/
 *.py[cod]
 *$py.class
